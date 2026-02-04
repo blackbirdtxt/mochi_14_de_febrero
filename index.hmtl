@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Quieres ser mi San Valentín?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="background" id="background"></div>
+
+  <div class="container fade-in">
+    <h1>💖 14 de Febrero 💖</h1>
+    <p class="question">
+      Abigail Jara,<br><br>
+      ¿Me permitirías a mí, <strong>Jhoao Ashashawa</strong>,<br>
+      ser tu San Valentín y pasar un hermoso 14 de febrero juntos?
+    </p>
+
+    <div class="buttons">
+      <button id="yesBtn">Sí, acepto 💘</button>
+      <button id="noBtn">No, gracias 🙃</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>🌸 FELIIIII 🌸</h2>
+      <p>
+        Muchas gracias amor mío,<br><br>
+        Me esforzaré por cumplir tus expectativas y enamorarte un poco más todos los días.
+        Te amo con todo mi corazón, mi alma y mi vida,
+        amor de mis eternidades ❤️
+      </p>
+      <button onclick="closeModal()">Cerrar</button>
+    </div>
+  </div>
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+  <script src="script.js"></script>
+</body>
+</html>
